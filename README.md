@@ -106,12 +106,13 @@ curl.exe -s http://localhost:8080/api/consulta
 
 ## 📬 Como entregar o desafio
 
-1. **Faça um fork** deste repositório.
-2. Implemente a solução no seu fork.
-3. Faça commits organizados com mensagens claras.
-4. Após finalizar:
-   - Envie o link do **repositório forkado** com a sua solução.
-   - Certifique-se de que o projeto roda sem erros e que o README está atualizado.
+A solução está implementada neste repositório. Para publicar no **seu fork** e enviar o link na vaga, siga [docs/ENTREGA.md](docs/ENTREGA.md) (fork → `git push` → link do GitHub).
+
+Resumo exigido pelo desafio:
+
+1. **Fork** de `merito-es/vaga-junior` na sua conta GitHub.
+2. **Push** da branch `main` com os commits da solução.
+3. Enviar o link do **repositório forkado**; projeto roda com `.\mvnw.cmd clean test` e `.\mvnw.cmd spring-boot:run`.
 
 ---
 ## 🔍 O que será avaliado
