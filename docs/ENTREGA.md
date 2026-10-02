@@ -2,9 +2,16 @@
 
 ## 1. Fork no GitHub
 
-1. Abra: https://github.com/merito-es/vaga-junior  
-2. Clique em **Fork** (canto superior direito) e crie o fork na **sua conta**.  
-3. Anote a URL do fork, por exemplo: `https://github.com/SEU_USUARIO/vaga-junior.git`
+**Automático (recomendado)** — na raiz do projeto, após autorizar o GitHub no navegador:
+
+```powershell
+.\scripts\publicar-fork.ps1
+```
+
+O script faz login (se precisar), cria o fork, configura `origin` e dá `git push`.
+
+**Manual no site:** https://github.com/merito-es/vaga-junior → **Fork** → sua conta.  
+URL do fork: `https://github.com/SEU_USUARIO/vaga-junior.git`
 
 ## 2. Apontar o Git para o seu fork
 
