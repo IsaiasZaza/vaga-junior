@@ -18,7 +18,16 @@ URL do fork: `https://github.com/SEU_USUARIO/vaga-junior.git`
 No PowerShell, na pasta do projeto (substitua `SEU_USUARIO`):
 
 ```powershell
-git remote rename origin upstream
+git remote -v
+```
+
+- Se existir **`origin`** apontando para `merito-es/vaga-junior`, renomeie:  
+  `git remote rename origin upstream`
+- Se **`upstream`** já existir (erro *remote upstream already exists*), **pule** o rename — isso já está certo.
+
+Depois adicione o seu fork (só se ainda não houver `origin`):
+
+```powershell
 git remote add origin https://github.com/SEU_USUARIO/vaga-junior.git
 git remote -v
 ```
